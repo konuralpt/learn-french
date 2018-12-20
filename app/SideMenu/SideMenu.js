@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import styles from './SideMenu.style';
 import {NavigationActions} from 'react-navigation';
 import {ScrollView, View} from 'react-native';
-import { Container, Header, Content, Button,Text } from 'native-base';
+import { Container, Header, Content, Button,Text} from 'native-base';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 class SideMenu extends Component {
@@ -16,7 +16,6 @@ class SideMenu extends Component {
 
   render () {
     return (
-
       <View>
       <ScrollView>
       <Button iconLeft full primary bordered style={styles.button} onPress={this.navigateToScreen('Home')}>
