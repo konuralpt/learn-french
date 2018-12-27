@@ -1,3 +1,5 @@
-import app from './app/App';
+import React, {Component} from 'react';
+import {Platform, StyleSheet, Text, View, AppRegistry} from 'react-native';
+import App from './app/App';
 
-export default app;
+AppRegistry.registerComponent('learnfrench', () => App);
