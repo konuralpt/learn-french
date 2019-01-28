@@ -10,7 +10,6 @@ import SideMenu from './SideMenu/SideMenu';
 import {createAppContainer} from 'react-navigation';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-
 type Props = {};
 class App extends Component<Props> {
   render() {
@@ -50,7 +49,7 @@ const RootStack = createMaterialBottomTabNavigator({
   order: ['Videos','Home','WordGame'],
   activeTintColor: '#2B3252',
   inactiveTintColor: '#808080',
-  barStyle: { backgroundColor: '#FAD744' },
+  barStyle: { backgroundColor: '#d8b43e' },
   shifting: true,
 
 });
